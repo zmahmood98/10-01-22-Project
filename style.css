@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(163, 211, 230);
+}
+
+.Header {
+    text-align: center;
+}
+
+.headerButtons {
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+marquee {
+    background-color: white;
+}
