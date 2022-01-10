@@ -2,8 +2,15 @@ body {
     background-color: rgb(163, 211, 230);
 }
 
-.Header {
+.mainHeader {
     text-align: center;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.subHeader {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+    text-decoration: none;
 }
 
 .headerButtons {
