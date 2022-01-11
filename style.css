@@ -1,5 +1,22 @@
 body {
     background-color: rgb(163, 211, 230);
+    background-image: url('images/blue-sky.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 2000px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+marquee {
+    background-color: white;
 }
 
 .mainHeader {
@@ -13,29 +30,36 @@ body {
     text-decoration: none;
 }
 
-.headerButtons {
+.topnav {
     cursor: pointer;
     text-align: center;
     padding: 10px;
     background-color: black;
+    overflow: hidden;
 }
 
-a {
+.topnav a {
+    float: left;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
     color: white;
     text-decoration: none;
-    margin-left: 100px;
-}
+    width: 97.5%;
+  }
 
-h1 {
-    color: white;
-}
+.topnav a:hover {
+    background-color: rgb(213, 242, 253);
+    color: black;
+  }
 
-h2 {
-    color: white;
-    text-decoration: underline;
-}
-
-marquee {
+.topnav a.active {
     background-color: white;
+    color: black;
+  }
+
+.homepage-mainparagraph {
+    text-align: justify;
 }
