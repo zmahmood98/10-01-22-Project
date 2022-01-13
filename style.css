@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(163, 211, 230);
-    background-image: url('images/blue-sky.jpg');
+    background-color: rgb(199, 239, 255);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: auto;
     width: auto;
     margin: 0;
+    justify-content: center;
 }
 
 h1 {
@@ -73,7 +73,7 @@ marquee {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: #d94575;
+    background-color: lightcoral;
     text-align: center;
     color: #fff;
 }
