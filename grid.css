@@ -20,8 +20,9 @@
 
 .image {
     display: block;
-    width: 100%;
+    width: 95%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .overlay {
@@ -31,7 +32,7 @@
     left: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 95%;
     opacity: 0;
     transition: 0.5s ease;
     background-color: black;

@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: auto;
 }
 
 h1 {
@@ -63,3 +64,13 @@ marquee {
     text-align: justify;
 }
 
+.footer {
+    position: bottom;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #d94575;
+    text-align: center;
+    color: #fff;
+}
