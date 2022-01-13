@@ -21,9 +21,15 @@ marquee {
     background-color: white;
 }
 
+.headerBackground {
+    background-image: url(/images/blue-sky.jpg);
+    background-size: cover;
+}
+
 .mainHeader {
     text-align: center;
     font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
 }
 
 .subHeader {
