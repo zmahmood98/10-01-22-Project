@@ -1,38 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: rgb(163, 211, 230);
-    background-image: url('images/blue-sky.jpg');
+    background-color: rgb(199, 239, 255);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 2000px;
+    height: auto;
+    width: auto;
+    margin: 0;
+    justify-content: center;
 }
 
 h1 {
     color: black;
-}
-
-h2 {
-    color: black;
+    padding: 0.75rem;
 }
 
 marquee {
     background-color: white;
+
+}
+
+.headerBackground {
+    background-image: url(/images/blue-sky.jpg);
+    background-size: cover;
 }
 
 .mainHeader {
     text-align: center;
     font-family: 'Bungee Shade', cursive;
-}
-
-.subHeader {
-    text-align: center;
-    font-family: 'Bungee Shade', cursive;
-    text-decoration: none;
+    font-size: 40px;
 }
 
 .topnav {
     cursor: pointer;
     text-align: center;
+    justify-content: center;
     padding: 10px;
     background-color: black;
     overflow: hidden;
@@ -42,16 +49,16 @@ marquee {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    justify-content: center;
+    padding: 20px ;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
-    width: 97.5%;
   }
 
 .topnav a:hover {
-    background-color: rgb(213, 242, 253);
+    background-color: rgb(252, 210, 210);
     color: black;
   }
 
@@ -60,6 +67,18 @@ marquee {
     color: black;
   }
 
-.homepage-mainparagraph {
+.main-paragraph {
     text-align: justify;
+    padding: 1rem;
+}
+
+.footer {
+    position: bottom;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: lightcoral;
+    text-align: center;
+    color: #fff;
 }
